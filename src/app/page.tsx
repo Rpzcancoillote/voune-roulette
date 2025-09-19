@@ -23,7 +23,7 @@ const numbers = [
 ];
 
 // Durée du timer avant chaque spin (en secondes)
-const TIMER_DURATION = 25;
+const TIMER_DURATION = 60;
 
 // Nombre de tours complets avant de s'arrêter
 const SPIN_TOURS = 3;
