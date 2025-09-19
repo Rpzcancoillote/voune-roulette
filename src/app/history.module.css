@@ -1,0 +1,21 @@
+
+.history {
+  list-style: none;
+  padding-left: 0;
+  max-height: 280px;
+  overflow: scroll;
+}
+
+.history li {
+  padding: 0.3rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+
+.red { background: #d32f2f; color: white; }
+.black { background: #212121; color: white; }
+.green { background: #388e3c; color: white; }

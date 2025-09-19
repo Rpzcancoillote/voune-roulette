@@ -1,0 +1,38 @@
+.container {
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.list {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list li {
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+.red {
+  background: #d32f2f;
+  color: white;
+}
+.black {
+  background: #212121;
+  color: white;
+}
+.green {
+  background: #388e3c;
+  color: white;
+}
+
+.chartWrapper {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
