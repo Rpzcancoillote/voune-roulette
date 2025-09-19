@@ -23,10 +23,10 @@ const numbers = [
 ];
 
 // Durée du timer avant chaque spin (en secondes)
-const TIMER_DURATION = 3;
+const TIMER_DURATION = 30;
 
 // Nombre de tours complets avant de s'arrêter
-const SPIN_TOURS = 1;
+const SPIN_TOURS = 3;
 
 export default function Roulette() {
   const [highlightIndex, setHighlightIndex] = useState<number | null>(null);
@@ -104,11 +104,11 @@ export default function Roulette() {
       </div>
 
       <div className={styles.rightPane}>
-        <h2>Historique</h2>
+        {/* <h2>Historique</h2> */}
         <History history={history} numbers={numbers} />
+        {/* <br /> */}
         <br />
-        <br />
-        <h2>Statistiques</h2>
+        {/* <h2>Statistiques</h2> */}
         <Stats history={history} numbers={numbers} />
       </div>
     </div>
